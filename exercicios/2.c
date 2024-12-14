@@ -1,9 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int funcao(int x, int y){
-    return (x * y);
-}
+int funcao(int x, int y);
 
 int main()
 {
@@ -14,4 +12,9 @@ int main()
 
     printf("Resultado: %d", funcao(x, y));
 }
+
+int funcao(int x, int y){
+    return (x * y);
+}
+
 
